@@ -1,0 +1,16 @@
+{
+  "enableWorkflows": true,
+  "enabledPlugins": {
+    "superpowers@riley-coding-skills": true,
+    "anthropic-coding-skills@riley-coding-skills": true
+  },
+  "extraKnownMarketplaces": {
+    "riley-coding-skills": {
+      "source": {
+        "source": "github",
+        "repo": "rileytrottier23/riley-coding-skills"
+      }
+    }
+  },
+  "autoUpdatesChannel": "latest"
+}
