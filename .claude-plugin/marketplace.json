@@ -13,14 +13,14 @@
       "name": "superpowers",
       "description": "Jesse Vincent's superpowers (MIT): a coding-agent methodology in 14 skills — TDD, systematic debugging, planning, code review, git worktrees. Named 'superpowers' so the skills' internal cross-references resolve.",
       "source": "./",
-      "strict": false,
+      "strict": true,
       "skills": ["./vendored/obra-superpowers/"]
     },
     {
       "name": "anthropic-coding-skills",
       "description": "Engineering example skills from anthropics/skills (Apache 2.0): mcp-builder, webapp-testing, web-artifacts-builder, frontend-design, claude-api.",
       "source": "./",
-      "strict": false,
+      "strict": true,
       "skills": ["./vendored/anthropic/"]
     }
   ]
