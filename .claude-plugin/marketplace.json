@@ -6,22 +6,26 @@
   },
   "metadata": {
     "description": "Riley's coding and engineering skills: vendored collections for TDD, debugging, planning, code review, MCP building, and frontend/webapp tooling.",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "superpowers",
       "description": "Jesse Vincent's superpowers (MIT): a coding-agent methodology in 14 skills — TDD, systematic debugging, planning, code review, git worktrees. Named 'superpowers' so the skills' internal cross-references resolve.",
       "source": "./",
-      "strict": true,
-      "skills": ["./vendored/obra-superpowers/"]
+      "strict": false,
+      "skills": [
+        "./vendored/obra-superpowers/"
+      ]
     },
     {
       "name": "anthropic-coding-skills",
       "description": "Engineering example skills from anthropics/skills (Apache 2.0): mcp-builder, webapp-testing, web-artifacts-builder, frontend-design, claude-api.",
       "source": "./",
-      "strict": true,
-      "skills": ["./vendored/anthropic/"]
+      "strict": false,
+      "skills": [
+        "./vendored/anthropic/"
+      ]
     }
   ]
 }
