@@ -5,8 +5,8 @@
     "url": "https://github.com/rileytrottier23"
   },
   "metadata": {
-    "description": "Riley's coding and engineering skills: vendored collections for TDD, debugging, planning, code review, MCP building, and frontend/webapp tooling.",
-    "version": "1.0.1"
+    "description": "Riley's coding and engineering skills: vendored collections for TDD, debugging, planning, code review, MCP building, frontend/webapp tooling, and filtering generic AI output.",
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -25,6 +25,15 @@
       "strict": false,
       "skills": [
         "./vendored/anthropic/"
+      ]
+    },
+    {
+      "name": "antislop",
+      "description": "Miqdad Badjuber's anti-slop (MIT): a filter that stops AI coding agents from shipping generic UI, copy, and code comments, in 6 skills plus a mandatory delivery gate.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./vendored/miqdadbadjuber-antislop/"
       ]
     }
   ]

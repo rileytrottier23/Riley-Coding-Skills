@@ -8,7 +8,7 @@ library alongside [riley-pm-skills](https://github.com/rileytrottier23/riley-pm-
 Each skill is a folder containing a `SKILL.md`: an instruction set Claude loads when the skill's
 description matches what you are asking for. They work in Claude Projects, Claude Code, and Cowork.
 
-**This repo is also a plugin marketplace** — 19 skills installable in one step. See [Install](#install).
+**This repo is also a plugin marketplace** — 25 skills installable in one step. See [Install](#install).
 
 ## Layout: `mine/` vs `vendored/`
 
@@ -27,12 +27,13 @@ description matches what you are asking for. They work in Claude Projects, Claud
 **Claude desktop app / Cowork:** Customize → Plugins → Personal plugins → **+** → Add marketplace →
 Add from a repository → `rileytrottier23/riley-coding-skills`
 
-Two plugins, install whichever you want:
+Three plugins, install whichever you want:
 
 | Plugin | Skills | What's in it |
 |---|---|---|
 | `superpowers` | 14 | Jesse Vincent's coding-agent methodology — TDD, debugging, planning, code review, git worktrees (MIT) |
 | `anthropic-coding-skills` | 5 | Anthropic's engineering skills — MCP building, webapp testing, web artifacts, frontend design, Claude API (Apache 2.0) |
+| `antislop` | 6 | Miqdad Badjuber's filter for generic AI output — UI, copy, code comments, accessibility, mobile layout, plus a delivery gate (MIT) |
 
 > The `superpowers` plugin is named exactly `superpowers` on purpose: its skills cross-reference each
 > other as `superpowers:<skill>`, and that only resolves when the installed plugin carries that name.
@@ -43,6 +44,7 @@ Two plugins, install whichever you want:
 |---|---|---|---|
 | [obra-superpowers](./vendored/obra-superpowers) | [Jesse Vincent](https://github.com/obra/superpowers) | 14 | MIT |
 | [anthropic](./vendored/anthropic) | [Anthropic](https://github.com/anthropics/skills) | 5 | Apache 2.0 |
+| [miqdadbadjuber-antislop](./vendored/miqdadbadjuber-antislop) | [Miqdad Badjuber](https://github.com/miqdadbadjuber/anti-slop) | 6 | MIT |
 
 Each vendored folder is a pinned snapshot, not a live mirror. Updating means a fresh vendor commit
 against a newer upstream SHA — never an edit in place — so the diff always shows what changed upstream.
@@ -56,4 +58,5 @@ frontmatter — you don't need to invoke it by name.
 ## License
 
 MIT — see [LICENSE](./LICENSE). Applies to [`mine/`](./mine) only. [`vendored/`](./vendored) keeps each
-upstream author's own license (`obra-superpowers` MIT, `anthropic` Apache 2.0), which governs.
+upstream author's own license (`obra-superpowers` MIT, `anthropic` Apache 2.0, `miqdadbadjuber-antislop`
+MIT), which governs.

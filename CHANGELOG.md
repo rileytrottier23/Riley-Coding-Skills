@@ -2,6 +2,9 @@
 
 Newest first.
 
+- 2026-09-13 — Added `vendored/miqdadbadjuber-antislop` (6, MIT), a filter that stops AI coding agents
+  from shipping generic UI, copy, and code comments, plus a mandatory delivery gate. New `antislop`
+  plugin. 25 skills total.
 - 2026-08-23 — Created from the split of Riley-Claude-Skills into three domain repos. Holds the
   coding/engineering bucket, all vendored for now: `obra-superpowers` (14, MIT) and the engineering
   Anthropic skills (mcp-builder, webapp-testing, web-artifacts-builder, frontend-design, claude-api;
