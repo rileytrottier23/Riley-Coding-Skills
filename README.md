@@ -2,7 +2,7 @@
 
 Coding and engineering Claude skills — TDD, debugging, planning, code review, MCP building, and
 frontend/webapp tooling. Versioned here rather than left in a chat history. Part of a three-repo skills
-library alongside [riley-pm-skills](https://github.com/rileytrottier23/riley-pm-skills) and
+library alongside [riley-pm-skills](https://github.com/rileytrottier23/Riley-PM-Skills) and
 [riley-thinking-skills](https://github.com/rileytrottier23/riley-thinking-skills).
 
 Each skill is a folder containing a `SKILL.md`: an instruction set Claude loads when the skill's
@@ -19,12 +19,12 @@ description matches what you are asking for. They work in Claude Projects, Claud
 ## Install
 
 ```
-/plugin marketplace add rileytrottier23/riley-coding-skills
+/plugin marketplace add rileytrottier23/Riley-Coding-Skills
 /plugin install superpowers@riley-coding-skills
 ```
 
 **Claude desktop app / Cowork:** Customize → Plugins → Personal plugins → **+** → Add marketplace →
-Add from a repository → `rileytrottier23/riley-coding-skills`
+Add from a repository → `rileytrottier23/Riley-Coding-Skills`
 
 Four plugins, install whichever you want:
 
