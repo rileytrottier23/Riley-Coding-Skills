@@ -2,6 +2,7 @@
 
 Newest first.
 
+- 2026-09-25 — Added `mine/vibe-design-loop`. 27 skills total.
 - 2026-09-25 — Added `mine/code-cowork-handoff`, the first first-party skill here. New
   `riley-coding-skills` plugin for `mine/`. 26 skills total.
 - 2026-09-13 — Added `vendored/miqdadbadjuber-antislop` (6, MIT), a filter that stops AI coding agents

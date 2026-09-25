@@ -5,13 +5,13 @@
     "url": "https://github.com/rileytrottier23"
   },
   "metadata": {
-    "description": "Riley's coding and engineering skills: first-party Code/Cowork handoff, plus vendored collections for TDD, debugging, planning, code review, MCP building, frontend/webapp tooling, and filtering generic AI output.",
-    "version": "1.2.0"
+    "description": "Riley's coding and engineering skills: first-party Code/Cowork handoff and vibe-design loop, plus vendored collections for TDD, debugging, planning, code review, MCP building, frontend/webapp tooling, and filtering generic AI output.",
+    "version": "1.3.0"
   },
   "plugins": [
     {
       "name": "riley-coding-skills",
-      "description": "Riley's own coding skills: code-cowork-handoff, which spots when work belongs in Claude Code vs Cowork and writes a paste-ready handoff file for the other side.",
+      "description": "Riley's own coding skills: code-cowork-handoff (spots Code vs Cowork work and writes a handoff file) and vibe-design-loop (pushes AI-generated UI past the generic look).",
       "source": "./",
       "strict": false,
       "skills": [

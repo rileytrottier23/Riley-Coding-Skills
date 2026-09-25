@@ -8,7 +8,7 @@ library alongside [riley-pm-skills](https://github.com/rileytrottier23/riley-pm-
 Each skill is a folder containing a `SKILL.md`: an instruction set Claude loads when the skill's
 description matches what you are asking for. They work in Claude Projects, Claude Code, and Cowork.
 
-**This repo is also a plugin marketplace** — 26 skills installable in one step. See [Install](#install).
+**This repo is also a plugin marketplace** — 27 skills installable in one step. See [Install](#install).
 
 ## Layout: `mine/` vs `vendored/`
 
@@ -30,7 +30,7 @@ Four plugins, install whichever you want:
 
 | Plugin | Skills | What's in it |
 |---|---|---|
-| `riley-coding-skills` | 1 | My own coding skills — Claude Code ↔ Cowork handoff (MIT) |
+| `riley-coding-skills` | 2 | My own coding skills — Claude Code ↔ Cowork handoff and a vibe-design critique loop (MIT) |
 | `superpowers` | 14 | Jesse Vincent's coding-agent methodology — TDD, debugging, planning, code review, git worktrees (MIT) |
 | `anthropic-coding-skills` | 5 | Anthropic's engineering skills — MCP building, webapp testing, web artifacts, frontend design, Claude API (Apache 2.0) |
 | `antislop` | 6 | Miqdad Badjuber's filter for generic AI output — UI, copy, code comments, accessibility, mobile layout, plus a delivery gate (MIT) |
@@ -43,6 +43,7 @@ Four plugins, install whichever you want:
 | Skill | What it does |
 |---|---|
 | [code-cowork-handoff](./mine/code-cowork-handoff) | Spots when work belongs in Claude Code vs Cowork and writes a paste-ready handoff file for the other side. |
+| [vibe-design-loop](./mine/vibe-design-loop) | Pushes AI-generated UI past the generic look with a seeded-variety, fresh-context-critic, and subtractive-polish loop. |
 
 ## Vendored skills (`vendored/`)
 
