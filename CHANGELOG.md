@@ -2,6 +2,8 @@
 
 Newest first.
 
+- 2026-09-25 — Added `mine/code-cowork-handoff`, the first first-party skill here. New
+  `riley-coding-skills` plugin for `mine/`. 26 skills total.
 - 2026-09-13 — Added `vendored/miqdadbadjuber-antislop` (6, MIT), a filter that stops AI coding agents
   from shipping generic UI, copy, and code comments, plus a mandatory delivery gate. New `antislop`
   plugin. 25 skills total.

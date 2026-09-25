@@ -8,12 +8,11 @@ library alongside [riley-pm-skills](https://github.com/rileytrottier23/riley-pm-
 Each skill is a folder containing a `SKILL.md`: an instruction set Claude loads when the skill's
 description matches what you are asking for. They work in Claude Projects, Claude Code, and Cowork.
 
-**This repo is also a plugin marketplace** — 25 skills installable in one step. See [Install](#install).
+**This repo is also a plugin marketplace** — 26 skills installable in one step. See [Install](#install).
 
 ## Layout: `mine/` vs `vendored/`
 
-- **[`mine/`](./mine)** — skills I wrote. MIT ([LICENSE](./LICENSE)). Empty for now; first-party coding
-  skills will land here.
+- **[`mine/`](./mine)** — skills I wrote. MIT ([LICENSE](./LICENSE)).
 - **[`vendored/`](./vendored)** — skills by other people, pinned to an upstream commit and kept under
   their original license. Nothing in here is my work; each folder credits its author.
 
@@ -27,16 +26,23 @@ description matches what you are asking for. They work in Claude Projects, Claud
 **Claude desktop app / Cowork:** Customize → Plugins → Personal plugins → **+** → Add marketplace →
 Add from a repository → `rileytrottier23/riley-coding-skills`
 
-Three plugins, install whichever you want:
+Four plugins, install whichever you want:
 
 | Plugin | Skills | What's in it |
 |---|---|---|
+| `riley-coding-skills` | 1 | My own coding skills — Claude Code ↔ Cowork handoff (MIT) |
 | `superpowers` | 14 | Jesse Vincent's coding-agent methodology — TDD, debugging, planning, code review, git worktrees (MIT) |
 | `anthropic-coding-skills` | 5 | Anthropic's engineering skills — MCP building, webapp testing, web artifacts, frontend design, Claude API (Apache 2.0) |
 | `antislop` | 6 | Miqdad Badjuber's filter for generic AI output — UI, copy, code comments, accessibility, mobile layout, plus a delivery gate (MIT) |
 
 > The `superpowers` plugin is named exactly `superpowers` on purpose: its skills cross-reference each
 > other as `superpowers:<skill>`, and that only resolves when the installed plugin carries that name.
+
+## My skills (`mine/`)
+
+| Skill | What it does |
+|---|---|
+| [code-cowork-handoff](./mine/code-cowork-handoff) | Spots when work belongs in Claude Code vs Cowork and writes a paste-ready handoff file for the other side. |
 
 ## Vendored skills (`vendored/`)
 

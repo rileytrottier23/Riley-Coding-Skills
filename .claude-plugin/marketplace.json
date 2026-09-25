@@ -5,10 +5,19 @@
     "url": "https://github.com/rileytrottier23"
   },
   "metadata": {
-    "description": "Riley's coding and engineering skills: vendored collections for TDD, debugging, planning, code review, MCP building, frontend/webapp tooling, and filtering generic AI output.",
-    "version": "1.1.0"
+    "description": "Riley's coding and engineering skills: first-party Code/Cowork handoff, plus vendored collections for TDD, debugging, planning, code review, MCP building, frontend/webapp tooling, and filtering generic AI output.",
+    "version": "1.2.0"
   },
   "plugins": [
+    {
+      "name": "riley-coding-skills",
+      "description": "Riley's own coding skills: code-cowork-handoff, which spots when work belongs in Claude Code vs Cowork and writes a paste-ready handoff file for the other side.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./mine/"
+      ]
+    },
     {
       "name": "superpowers",
       "description": "Jesse Vincent's superpowers (MIT): a coding-agent methodology in 14 skills — TDD, systematic debugging, planning, code review, git worktrees. Named 'superpowers' so the skills' internal cross-references resolve.",
