@@ -1,8 +1,8 @@
 # Anthropic example skills (engineering)
 
 Vendored from [anthropics/skills](https://github.com/anthropics/skills) at commit
-[`f379e5a`](https://github.com/anthropics/skills/tree/f379e5ad66e2febc1616cf8d6284666fecbe514e),
-synced 2026-08-18. **Not my work** — pinned here so the versions I actually run are diffable, and kept
+[`ca45fc4`](https://github.com/anthropics/skills/tree/ca45fc496a3436251f191354091d557da31c15b5),
+synced 2026-11-02. **Not my work** — pinned here so the versions I actually run are diffable, and kept
 under their original license.
 
 Each is a **folder** — `SKILL.md` plus scripts, references, and assets, and its own `LICENSE.txt`.

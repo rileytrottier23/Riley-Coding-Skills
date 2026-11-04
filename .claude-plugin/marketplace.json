@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Riley's coding and engineering skills: first-party Code/Cowork handoff and vibe-design loop, plus vendored collections for TDD, debugging, planning, code review, MCP building, frontend/webapp tooling, and filtering generic AI output.",
-    "version": "1.3.0"
+    "version": "1.4.0"
   },
   "plugins": [
     {
