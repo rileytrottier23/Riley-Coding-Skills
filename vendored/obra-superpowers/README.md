@@ -3,7 +3,7 @@
 Fourteen skills from [obra/superpowers](https://github.com/obra/superpowers), by **Jesse Vincent**
 (also the author of the Elements of Style skill in
 [riley-thinking-skills](https://github.com/rileytrottier23/riley-thinking-skills)). Vendored at upstream
-`b36e082` (v6.3.0), synced 2026-08-23.
+`22f0b46` (v7.0.2), synced 2026-11-02.
 
 Superpowers is a software-development *methodology* for coding agents — TDD, systematic debugging,
 planning, code review, and git-worktree discipline, written to activate from their descriptions the way
@@ -43,7 +43,7 @@ Unlike the two CC BY-NC-SA collections in `third-party/`, MIT carries no NonComm
 | [verification-before-completion](./verification-before-completion) | Run verification and confirm output before claiming work is done. |
 | [brainstorming](./brainstorming) | Explores intent, requirements, and design before any creative/build work. |
 | [writing-plans](./writing-plans) | Turns a spec into a written, checkbox-tracked implementation plan. |
-| [executing-plans](./executing-plans) | Executes a written plan in a fresh session with review checkpoints. |
+| [executing-plans](./executing-plans) | Executes a written plan inline in the current session, with you as the implementer and review checkpoints. |
 | [subagent-driven-development](./subagent-driven-development) | Runs plan tasks via subagents in the current session. |
 | [dispatching-parallel-agents](./dispatching-parallel-agents) | Fans out 2+ independent tasks with no shared state. |
 | [requesting-code-review](./requesting-code-review) | Requests review before merging major work. |
