@@ -2,6 +2,10 @@
 
 Newest first.
 
+- 2026-11-08 — `mine/vibe-design-loop`: runs Impeccable's rule-based slop detector (CLI only, no hook,
+  no live mode) before each critic round, and asks the critic for a ranked critique plus a P0-P3 audit,
+  borrowed from Impeccable's `critique` and `audit` commands (pbakaus/impeccable, Apache 2.0). 27 skills total.
+
 - 2026-11-02 — Re-synced three vendored collections to upstream. `obra-superpowers` b36e082 (v6.3.0) →
   22f0b46 (v7.0.2): brainstorming rebuilt (fewer questions, asks why first, a builder check replaces the
   spec reviewer), `executing-plans` now runs inline in the current session, new SDD/plan helper scripts,
