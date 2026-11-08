@@ -50,6 +50,26 @@ Rules that make this actually work — skip any of these and the loop degrades i
 
 Full copy-paste prompt template and the iteration loop: `references/critic-prompt.md`.
 
+### Run the slop detector before each critic round
+
+Taste needs the critic. Known AI tells don't. Before every critic round, run Impeccable's rule-based detector (Paul Bakaus, Apache 2.0, github.com/pbakaus/impeccable). It needs no API key and no LLM, and it catches the stock tells (overused fonts, purple gradients, nested cards, gray text on color, cramped padding, skipped headings) in seconds:
+
+```bash
+DO_NOT_TRACK=1 npx impeccable detect src/                     # pattern rules on source files
+DO_NOT_TRACK=1 npx impeccable detect http://localhost:5173    # adds contrast and tiny-text rules on the rendered page
+```
+
+Exit code 2 means findings. Fix them, then send the screenshot to the critic, so the critic spends its judgment on taste instead of on things a rule already caught. Use the detector CLI only: don't run `npx impeccable install` (it adds a hook that runs outside approvals), and don't use its `live` mode (its Apply step can run an agent with permissions turned off).
+
+### Ask the critic for two ranked lists
+
+Borrowed from Impeccable's `critique` and `audit` commands. Have the critic return:
+
+1. **Critique:** what hurts the design most, ranked worst first, judged against the references.
+2. **Audit:** accessibility, responsive layout, theming and performance problems, each tagged P0 (blocks shipping) to P3 (polish).
+
+Fix every P0 and P1 before the next round. Narrow targets work better than whole pages: one section reviewed closely beats a full page at a glance.
+
 ## Deliver: cut, don't add
 
 AI adds; it rarely subtracts. The clearest tell that something is AI-generated is elements that don't earn their place: glow effects on things that don't need to glow, labels next to things the visual already communicates, custom form controls that look worse than native ones.
