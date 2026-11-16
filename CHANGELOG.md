@@ -2,9 +2,10 @@
 
 Newest first.
 
-- 2026-11-09 — Re-synced vendored `antislop` 941b153 (v3.2.25) → 3b75daa (v3.2.27): `antislop-copywriting`
-  adds three patterns (temporal runway clichés, theatrical takeaways, title case in list items) and
-  `antislop-human`'s contrast MCP server rejects malformed hex colours. 27 skills total.
+- 2026-11-16 — Re-synced vendored `antislop` 941b153 (v3.2.25) → 35b54dc (v3.2.30): `antislop-copywriting`
+  adds three patterns (temporal runway clichés, theatrical takeaways, title case in list items),
+  `antislop-ui` adds a "Scaffold Sidebar" pattern, `antislop-human`'s contrast MCP server rejects malformed
+  hex colours, and `allowed-tools` lists are now comma-separated. 27 skills total.
 
 - 2026-11-08 — `mine/vibe-design-loop`: runs Impeccable's rule-based slop detector (CLI only, no hook,
   no live mode) before each critic round, and asks the critic for a ranked critique plus a P0-P3 audit,
