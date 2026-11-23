@@ -2,7 +2,7 @@
 
 Newest first.
 
-- 2026-11-16 — Re-synced vendored `antislop` 941b153 (v3.2.25) → 35b54dc (v3.2.30): `antislop-copywriting`
+- 2026-11-23 — Re-synced vendored `antislop` 941b153 (v3.2.25) → 7f6a03d (v3.2.32): `antislop-copywriting`
   adds three patterns (temporal runway clichés, theatrical takeaways, title case in list items),
   `antislop-ui` adds a "Scaffold Sidebar" pattern, `antislop-human`'s contrast MCP server rejects malformed
   hex colours, and `allowed-tools` lists are now comma-separated. 27 skills total.

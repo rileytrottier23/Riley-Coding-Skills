@@ -1,7 +1,7 @@
 # Anti Slop — Miqdad Badjuber
 
 Six skills from [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop), by **Miqdad
-Badjuber**. Vendored at upstream `35b54dc` (v3.2.30), synced 2026-11-16.
+Badjuber**. Vendored at upstream `7f6a03d` (v3.2.32), synced 2026-11-23.
 
 Anti Slop is a filter, not a style guide: 38 rules across three tiers that stop an AI coding agent from
 shipping generic output — bland UI, cliché copy, decorative comments — without dictating specific colors,
