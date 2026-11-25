@@ -55,3 +55,5 @@ Unlike the two CC BY-NC-SA collections in `third-party/`, MIT carries no NonComm
 
 Not a live mirror — a pinned snapshot. Updating means a fresh vendor commit against a newer upstream SHA,
 never an edit in place, so the diff always shows what changed upstream.
+
+**Local change (2026-11-25):** `using-superpowers`' description was narrowed to Claude Code coding sessions so it stops loading before every Claude app reply. The skill body is unchanged.

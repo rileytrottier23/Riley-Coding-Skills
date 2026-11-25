@@ -1,6 +1,6 @@
 ---
 name: using-superpowers
-description: Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions
+description: "Use at the start of a Claude Code coding session (writing, debugging, reviewing or planning code in a repo) to find and invoke the other superpowers skills. Do not use for ordinary chat, research, writing or personal questions in the Claude app."
 ---
 
 <SUBAGENT-STOP>

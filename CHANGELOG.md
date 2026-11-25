@@ -2,6 +2,8 @@
 
 Newest first.
 
+- 2026-11-25 — Removed `mine/code-cowork-handoff` (Cowork is now part of the Claude app). Narrowed `using-superpowers` description to Claude Code coding sessions so it stops loading before every chat reply. 26 skills total.
+
 - 2026-11-23 — Re-synced vendored `antislop` 941b153 (v3.2.25) → 7f6a03d (v3.2.32): `antislop-copywriting`
   adds three patterns (temporal runway clichés, theatrical takeaways, title case in list items),
   `antislop-ui` adds a "Scaffold Sidebar" pattern, `antislop-human`'s contrast MCP server rejects malformed

@@ -8,8 +8,8 @@ under their original license.
 Each is a **folder** — `SKILL.md` plus scripts, references, and assets, and its own `LICENSE.txt`.
 Copy the whole directory, not just the markdown.
 
-The writing, comms, and creative Anthropic skills (doc-coauthoring, internal-comms, algorithmic-art,
-brand-guidelines, theme-factory, slack-gif-creator, claude-academy-guide, discernment-nudge) live in
+The writing, comms, and creative Anthropic skills (doc-coauthoring, internal-comms,
+theme-factory, claude-academy-guide, discernment-nudge) live in
 [riley-thinking-skills](https://github.com/rileytrottier23/riley-thinking-skills) instead; this folder
 holds the engineering ones.
 
