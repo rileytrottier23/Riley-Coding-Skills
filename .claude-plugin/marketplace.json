@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Riley's coding and engineering skills: first-party Code/Cowork handoff and vibe-design loop, plus vendored collections for TDD, debugging, planning, code review, MCP building, frontend/webapp tooling, and filtering generic AI output.",
-    "version": "1.5.0"
+    "version": "1.6.0"
   },
   "plugins": [
     {
@@ -43,6 +43,15 @@
       "strict": false,
       "skills": [
         "./vendored/miqdadbadjuber-antislop/"
+      ]
+    },
+    {
+      "name": "windows-agent-shell",
+      "description": "Paweł Huryn's windows-agent-shell (MIT): Git Bash path rewriting, PowerShell quoting and encoding, CRLF and Claude Code auto mode traps for coding agents on Windows.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./vendored/phuryn-product-engineering/"
       ]
     }
   ]

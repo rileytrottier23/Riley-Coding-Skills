@@ -2,6 +2,8 @@
 
 Newest first.
 
+- 2026-11-25 — Added `vendored/phuryn-product-engineering/windows-agent-shell` (Paweł Huryn, MIT, upstream e7d9e7e) as the new `windows-agent-shell` plugin: Windows shell traps for coding agents. 27 skills total.
+
 - 2026-11-25 — Removed `mine/code-cowork-handoff` (Cowork is now part of the Claude app). Narrowed `using-superpowers` description to Claude Code coding sessions so it stops loading before every chat reply. 26 skills total.
 
 - 2026-11-23 — Re-synced vendored `antislop` 941b153 (v3.2.25) → 7f6a03d (v3.2.32): `antislop-copywriting`
